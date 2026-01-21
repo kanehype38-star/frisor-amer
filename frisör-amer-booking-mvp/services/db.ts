@@ -6,9 +6,9 @@ import { Booking } from '../types';
  * Project ID: ehiaenxchdrtnvypiszo
  * Anon Key: sb_publishable_nLj3Am3Qg7Hg4qamEp6ZzA_JZC82Ow6
  */
-const PROJECT_ID = 'ehiaenxchdrtnvypiszo';
+const VITE_SUPABASE_URL = 'ehiaenxchdrtnvypiszo';
 const DEFAULT_URL = `https://${PROJECT_ID}.supabase.co`;
-const DEFAULT_KEY = 'sb_publishable_nLj3Am3Qg7Hg4qamEp6ZzA_JZC82Ow6';
+const VITE_SUPABASE_ANON_KEY = 'sb_publishable_nLj3Am3Qg7Hg4qamEp6ZzA_JZC82Ow6';
 
 const getEnv = (key: string): string | undefined => {
   const value = (typeof process !== 'undefined' && process.env) ? process.env[key] : undefined;
